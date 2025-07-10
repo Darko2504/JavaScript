@@ -1,0 +1,26 @@
+.first{
+color: white;
+background-color: rgb(194, 194, 144);
+height: 50px;
+width: 50px;
+padding: 5px;
+margin: 5px;
+border: 3px solid black;
+border-radius: 5px;
+font-size: 2rem;
+}
+.smh{
+    height: 100px;
+    width: 150px;
+    background-color: rgb(215, 129, 129);
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 420px;
+}
+
+.first:hover{
+background-color: rgb(73, 73, 61);;
+}
+.smh:hover{
+    background-color:rgb(86, 53, 53); ;
+}

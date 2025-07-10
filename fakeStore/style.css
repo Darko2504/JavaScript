@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #79c2d0;
+}
+.logo {
+  width: 150px;
+}
+.header {
+  background-color: #53682a;
+  color: black;
+  text-align: center;
+}
+.categories {
+  text-align: center;
+  background-color: #53682a;
+  padding-top: 10px;
+}
+.categoryBtn {
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border-radius: 100px;
+  border: black;
+}
+.productCardsDiv {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+.paginationBtn {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(192, 148, 67);
+  border: none;
+  cursor: pointer;
+}
+.btn {
+  position: absolute;
+  right: 20px;
+  top: 7px;
+  font-style: italic;
+}
+.product-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  background-color: #a0c24b;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+.product-card img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+}
+.addBtn {
+  background-color: rgb(109, 109, 187);
+  border: none;
+  border-radius: 5px;
+}
+.removeBtn {
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 2px;
+}
+.blur-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: none;
+}
+
+.thankYouDiv {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  text-align: center;
+  font-size: 3rem;
+  color: black;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1001;
+  display: none;
+}
+
+.thankYouDiv img {
+  width: 100%;
+  height: auto;
+}
+
+.okBtn {
+  background-color: red;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.blur-overlay {
+  display: none;
+}
+
+.thankYouDiv {
+  display: none;
+}

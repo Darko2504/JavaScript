@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: rgb(82, 218, 82);">
+    <div>
+    <h1 style="text-align: center;">HANGMAN</h1>
+    <h2 style="text-align: center;">VANILLA JAVASCRIPT HANGMAN GAME</h2>
+    <br /><br />
+
+    <h3 style="text-align: center;">
+      Use the alphabet below to guess the word, or click hint to get a clue
+    </h3>
+    <button onclick="displayInput(`a`)" class="first" >a</button>
+    <button onclick="displayInput(`b`)" class="first">b</button>
+    <button onclick="displayInput(`c`)" class="first">c</button>
+    <button onclick="displayInput(`d`)" class="first">d</button>
+    <button onclick="displayInput(`e`)" class="first">e</button>
+    <button onclick="displayInput(`f`)" class="first">f</button>
+    <button onclick="displayInput(`g`)" class="first">g</button>
+    <button onclick="displayInput(`h`)" class="first">h</button>
+    <button onclick="displayInput(`i`)" class="first">i</button>
+    <button onclick="displayInput(`j`)" class="first">j</button>
+    <button onclick="displayInput(`k`)" class="first">k</button>
+    <button onclick="displayInput(`l`)" class="first">l</button>
+    <button onclick="displayInput(`m`)" class="first">m</button>
+    <button onclick="displayInput(`n`)"  class="first">n</button>
+    <button onclick="displayInput(`o`)" class="first">o</button>
+    <button onclick="displayInput(`p`)" class="first">p</button>
+    <button onclick="displayInput(`q`)" class="first">q</button>
+    <button onclick="displayInput(`r`)" class="first">r</button>
+    <button onclick="displayInput(`s`)" class="first">s</button>
+    <button onclick="displayInput(`t`)" class="first">t</button>
+    <button onclick="displayInput(`u`)" class="first">u</button>
+    <button onclick="displayInput(`v`)" class="first">v</button>
+    <button onclick="displayInput(`w`)" class="first">w</button>
+    <button onclick="displayInput(`x`)" class="first">x</button>
+    <button onclick="displayInput(`y`)" class="first">y</button>
+    <button onclick="displayInput(`z`)" class="first">z</button>
+
+    <h3 style="text-align: center;"> The chosen category is Food
+    </h3><br><br>
+    <div style="margin-left: 620px; font-size: 3rem;" id="inputWindow"></div>
+    <p style="text-align: center;">You have 15 lives</p>
+    
+    <button sty class="smh" onclick="hint()">hint</button> <button onclick="playAgain()" class="smh">play again</button>
+</div>
+    <script src="script.js"></script>
+  </body>
+</html>
